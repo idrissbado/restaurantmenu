@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Ivorian Menu</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 2.5em;
+            color: #2c3e50;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        section {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+            padding: 0 10%;
+        }
+
+        .menu-section {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .menu-section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .menu-section li {
+            margin-bottom: 15px;
+            font-size: 1.2em;
+        }
+
+        .menu-section strong {
+            color: #e74c3c;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 50px;
+        }
+
+        footer a {
+            color: #e74c3c;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            section {
+                grid-template-columns: 1fr;
+                padding: 0 5%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Delicious Ivorian Menu</h1>
+        <p>Experience the authentic taste of Côte d'Ivoire!</p>
+    </header>
+
+    <section>
+        <!-- Appetizers Section -->
+        <div class="menu-section">
+            <h2>Appetizers</h2>
+            <ul>
+                <li><strong>Alloco:</strong> Fried plantains served with spicy pepper sauce and fish.</li>
+                <li><strong>Choukouya:</strong> Grilled meat (usually goat or beef) served with onions and spicy sauce.</li>
+                <li><strong>Akara:</strong> Fried bean cakes made from black-eyed peas, onions, and spices.</li>
+            </ul>
+        </div>
+
+        <!-- Main Courses Section -->
+        <div class="menu-section">
+            <h2>Main Courses</h2>
+            <ul>
+                <li><strong>Attiéké and Fish:</strong> A traditional Ivorian dish made from cassava, served with grilled fish and sauce.</li>
+                <li><strong>Kedjenou:</strong> A delicious chicken or beef stew cooked in a sealed pot with vegetables and spices.</li>
+                <li><strong>Garba:</strong> A popular street food made from Attiéké (cassava) served with fried fish and spicy sauce.</li>
+            </ul>
+        </div>
+
+        <!-- Desserts Section -->
+        <div class="menu-section">
+            <h2>Desserts</h2>
+            <ul>
+                <li><strong>Fruits au Sirop:</strong> Fresh Ivorian fruits soaked in syrup, served cold.</li>
+                <li><strong>Banana Fritters:</strong> Deep-fried bananas coated in a light batter, served with a dusting of powdered sugar.</li>
+                <li><strong>Yamoussoukro Cake:</strong> A traditional cake from the capital city, made with cassava flour and coconut.</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <p>Have questions or want to make a reservation? <a href="contact.html">Contact us!</a></p>
+    </footer>
+
+</body>
+
+</html>
